@@ -23,9 +23,9 @@
    
    Performing the test run for this suite had the following results: 
    
-   - Website link is functional: I was able to access the provided link 🟢`passed`🟢
-   - Website Title is correct and relevant to the theme: while the Title is relevant to the theme, it was spelled incorrectly as "Factoriall" instead of "Factorial"   🔴`failed`🔴
-   - Website has an icon: the Website icon is visible, but the standard one is displayed instead of a personalized one - 🔴`failed`🔴
+   - Website link is functional: I was able to access the provided link `passed`
+   - Website Title is correct and relevant to the theme: while the Title is relevant to the theme, it was spelled incorrectly as "Factoriall" instead of "Factorial" `failed`
+   - Website has an icon: the Website icon is visible, but the standard one is displayed instead of a personalized one `failed`
 
 For both the Website Title and the Website Icon test cases I created a defect detailing why they failed: which were the expected and the actual results.
    
@@ -35,13 +35,13 @@ For both the Website Title and the Website Icon test cases I created a defect de
    
    Performing the test run for this suite had the following results:
    
-   - Website elements load up correctly: all the UI elements showed up as expected - `passed`
-   - Page Header is correct and relevant to the theme: the Page Header is "The Greatest Factorial Calculator!" and it is spelled correctly and in accordance with the application theme - `passed`
-   - Input Field shows intuitive placeholder text: the placeholder text is "Please enter an integer" so it is suitable - `passed`
-   - Button text is correct and relevant to the theme: the Button shows the "Calculate!" text so it is correct - `passed`
-   - "Terms and Conditions" hyperlink redirects the user to the "Terms and Conditions" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Privacy" Page instead - `failed`
-   - "Privacy" hyperlink redirects the user to the "Privacy" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Terms and Conditions" Page instead - `failed`
-   - Footer hyperlink redirects user to the correct page: clicking the hyperlink loaded the following website: (https://qxf2.com/) and it is correct - `passed`
+   - Website elements load up correctly: all the UI elements showed up as expected `passed`
+   - Page Header is correct and relevant to the theme: the Page Header is "The Greatest Factorial Calculator!" and it is spelled correctly and in accordance with the application theme `passed`
+   - Input Field shows intuitive placeholder text: the placeholder text is "Please enter an integer" so it is suitable `passed`
+   - Button text is correct and relevant to the theme: the Button shows the "Calculate!" text so it is correct `passed`
+   - "Terms and Conditions" hyperlink redirects the user to the "Terms and Conditions" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Privacy" Page instead `failed`
+   - "Privacy" hyperlink redirects the user to the "Privacy" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Terms and Conditions" Page instead `failed`
+   - Footer hyperlink redirects user to the correct page: clicking the hyperlink loaded the following website: (https://qxf2.com/) and it is correct `passed`
 
 "Terms and Conditions" and "Privacy" hyperlinks loaded up the incorrect pages. I created defects for both of the test cases mentioning what the expected result was upon accessing the hyperlinks.
 
@@ -74,7 +74,7 @@ Performing the test run for this suite had the following results:
     
     Performing the test run for this suite had the following results:
     
-    - User is able to interact with the "Calculate!" button: I was able to click the button and it is responsive - passed
+    - User is able to interact with the "Calculate!" button: I was able to click the button and it is responsive `passed`
     - Interacting with the "Calculate!" button displays a message: clicking the button will display a message depending on the value entered `passed`
     - The result is displayed correctly based on the input number: either the "Please enter an integer" error message - if any type of input other than integer type is entered - or a valid result - if an integer type input is entered - are displayed upon interacting with the button `passed`
   
