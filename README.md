@@ -6,14 +6,14 @@
   
   All of the test cases were performed on the three most commonly used browsers: Microsoft Edge, Chrome and Firefox.
   
-  ## Summary
+  ## **Summary**
   
   The test plan performed on this application is composed of the following suits of test cases :
   - UI/front-end testing : all the elements of the user interface (Page Header, Input Field, Button, "Terms and Conditions" hyperlink, "Privacy" hyperlink, Footer hyperlink) were tested in order for them to be correct, relevant to the theme and interactible
   - functionality testing : the Input Field, Button and hyperlinks were tested to verify that they are functional and they work as they should
   - validation/negative testing : various types of inputs were tested to make sure the correct result/error message is displayed upon calculating
 
-## Factorial Test Cases Suites
+## **Factorial Test Cases Suites**
 
 ### Website link Suite
   
@@ -68,7 +68,7 @@ Performing the test run for this suite had the following results:
 
   All of the test cases in this suite performed as expected and they all passed, however for the last test case I also created a defect. The reason for this was that testing numbers greater than "991" failed to deliver the "Infinity" result and showed no result and no error message whatsoever. The result in these cases should either be "Infinity" as well or an error message such as "The number is too large" in order to let the user know that calculating the certain number is invalid.
   
-  ### "Calculate!" Button suite
+  ### "Calculate!" Button Suite
   
     These test cases focused on the functionality of the button but also on the message shown to the user after interacting with it. Depending on the number entered in the Input Field, the message should be different.
     
@@ -82,13 +82,7 @@ Performing the test run for this suite had the following results:
 
 
 
-
-
-- ui/front-end 
-- functionalitate
 - edge-case
-- negative-testing
 
 
 - reported issues
-- icon missing
