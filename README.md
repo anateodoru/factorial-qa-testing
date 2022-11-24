@@ -13,9 +13,9 @@
   - functionality testing : the Input Field, Button and hyperlinks were tested to verify that they are functional and they work as they should
   - validation/negative testing : various types of inputs were tested to make sure the correct result/error message is displayed upon calculating
 
-## Factorial Test Cases Suite
+## Factorial Test Cases Suites
 
-### Website link
+### Website link Suite
   
    The first test I performed was making sure that the link is functional. After being able to access the website, I checked if the Website Title is correct and consistent with the purpose of the application.
    
@@ -29,7 +29,7 @@
 
 For both the Website Title and the Website Icon test cases I created a defect detailing why they failed: what was the expected and the actual result.
    
-   ### User Interface
+   ### User Interface Suite
    
    After accessing the website, the next step was verifying that the UI elements load up correctly and there is nothing missing or showing inappropriately. The following elements were verified : Page Header, Input Field, Button, "Terms and Conditions" hyperlink, "Privacy" hyperlink, Footer hyperlink. I checked if all are written correctly, the text is relevant to the theme and that they are all interactible.
    
@@ -45,7 +45,7 @@ For both the Website Title and the Website Icon test cases I created a defect de
 
 "Terms and Conditions" and "Privacy" hyperlinks loaded up the incorrect pages. I created defects for both of the test cases mentioning what the expected result was upon accessing the hyperlinks.
 
-### Input Field
+### Input Field Suite
 
 Given that the Input Field was interactible, I was able to test various types of inputs in order to determine if the correct result/error message is displayed in accordance with the case.
 
