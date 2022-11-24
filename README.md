@@ -51,7 +51,7 @@ Given that the Input Field was interactible, I was able to test various types of
 
 During this step I verified if entering integer type inputs will display a result and if any other type of inputs (string type, symbol type, float type) will show an error message. I also checked if mistakenly entering blank spaces in front/in the middle/after the number has any effect on the result and if trying to calculate a number starting with "0" or "0" itself will display a result or an error message. 
 
-As a final test, I verified if larger numbers will eventually display a result such as "Infinity" and if four-digit numbers will display an error message.
+As a final test, I verified if larger numbers will eventually display a result such as "Infinity" and if four-digits numbers will display an error message.
 
 Performing the test run for this suite had the following results:
 
@@ -60,7 +60,7 @@ Performing the test run for this suite had the following results:
 - User can calculate numbers starting with "0": calculating numbers that start with "0" still displays a correct result (the "0" in front of the number is ignored) (eg: calculating "03" displayed same result as calculating "3") - passed
 - User can calculate "0!": calculating "0!" displayed the result "1" which is correct - passed
 - Blank spaces before and after the number are ignored: I entered blank space in front/after the number and upon calculating the correct result was shown (eg: calculating " 3" and "3 " showed the same result as calculating "3", which is "6") - passed
-- User cannot calculate numbers with blank space in between digits: calculating two or three-digits numbers with a blank space in between digits displayed the "Please enter an integer" error message which is the correct result (eg: calculating "1 3") - passed
+- User cannot calculate numbers with blank space in between digits: calculating two or three-digits numbers with a blank space in between digits displayed the "Please enter an integer" error message which is the correct result  (eg: calculating "1 3") - passed
 - User cannot calculate string type inputs: calculating a string type innput such as "a" displayed the "Please enter an integer" error message which is correct - passed
 - User cannot calculate symbol type inputs: calculating numbers with any type of symbols such as "-3" displayed the "Please enter an integer" error message which is correct - passed
 - User cannot calculate float type inputs: calculating decimal numbers such as "1.3" or "1,3" displays the "Please enter an integer" error message which is correct - passed
