@@ -21,7 +21,7 @@
    
    During this step I have also noticed that the Website does not have a personalized icon and the stardard one is shown instead.
    
-   Performing the test run for this suite had the following results: 
+   #### Performing the test run for this suite had the following results: 
    
    - ***Website link is functional***: I was able to access the provided link `passed`
    - ***Website Title is correct and relevant to the theme***: while the Title is relevant to the theme, it was spelled incorrectly as "Factoriall" instead of "Factorial" `failed`
@@ -33,7 +33,7 @@ For both the Website Title and the Website Icon test cases I created a defect de
    
    After accessing the website, the next step was verifying that the UI elements load up correctly and there is nothing missing or showing inappropriately. The following elements were verified : Page Header, Input Field, Button, "Terms and Conditions" hyperlink, "Privacy" hyperlink, Footer hyperlink. I checked if all are written correctly, the text is relevant to the theme and that they are all interactible.
    
-   Performing the test run for this suite had the following results:
+  #### Performing the test run for this suite had the following results:
    
    - ***Website elements load up correctly***: all the UI elements showed up as expected `passed`
    - ***Page Header is correct and relevant to the theme***: the Page Header is "The Greatest Factorial Calculator!" and it is spelled correctly and in accordance with the application theme `passed`
@@ -53,7 +53,7 @@ During this step I verified if entering integer type inputs will display a resul
 
 As a final test, I verified if larger numbers will eventually display a result such as "Infinity" and if four-digits numbers will display an error message.
 
-Performing the test run for this suite had the following results:
+#### Performing the test run for this suite had the following results:
 
 - ***User is able to enter value in the input field***: input field was responsive and I was able to enter a number in it `passed`
 - ***User can calculate integer type inputs***: I was able to calculate the valid type of input and doing so displayed a correct result (eg: calculating "3" displayed "6" as a result) `passed`
@@ -72,7 +72,7 @@ Performing the test run for this suite had the following results:
   
     These test cases focused on the functionality of the button but also on the message shown to the user after interacting with it. Depending on the number entered in the Input Field, the message should be different.
     
-    Performing the test run for this suite had the following results:
+  #### Performing the test run for this suite had the following results:
     
     - ***User is able to interact with the "Calculate!" button***: I was able to click the button and it is responsive `passed`
     - ***Interacting with the "Calculate!" button displays a message***: clicking the button will display a message depending on the value entered `passed`
