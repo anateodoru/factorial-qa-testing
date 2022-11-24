@@ -19,7 +19,7 @@
   
    The first test I performed was making sure that the link is functional. After being able to access the website, I checked if the Website Title is correct and consistent with the purpose of the application.
    
-   #### During this step I have also noticed that the Website does not have a personalized icon and the stardard one is shown instead.
+   During this step I have also noticed that the Website does not have a personalized icon and the stardard one is shown instead.
    
    Performing the test run for this suite had the following results: 
    
