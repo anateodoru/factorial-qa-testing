@@ -1,6 +1,6 @@
 # **Factorial QA Testing**
 
-  For testing purposes I have picked a web application developed for helping QA testing which can be accessed through the following link : (qainterview.pythonanywhere.com) . The application has the purpose of calculating the factorial of a number entered by the user.
+  For testing purposes I have picked a web application developed for helping QA testing which can be accessed through the following link : (https://qainterview.pythonanywhere.com/) . The application has the purpose of calculating the factorial of a number entered by the user.
   
   Due to the fact that there was no documentation provided for this application, the test planning was not based on any therefore I have decided to do exploratory testing instead.
   
