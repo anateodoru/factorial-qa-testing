@@ -23,7 +23,8 @@
    
    Performing the test run for this suite had the following results: 
    
-   - Website link is functional: I was able to access the provided link   🟢 `passed`
+   - Website link is functional: I was able to access the provided link   ![image](https://user-images.githubusercontent.com/118375564/203837368-39520814-e9d6-445a-b982-2904a3bcc559.png)
+🟢 `passed`
    Website Title is correct and relevant to the theme: while the Title is relevant to the theme, it was spelled incorrectly as "Factoriall" instead of "Factorial"   🔴`failed`
      🔴 Website has an icon: the Website icon is visible, but the standard one is displayed instead of a personalized one - 🔴`failed`
 
