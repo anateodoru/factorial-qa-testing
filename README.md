@@ -66,7 +66,8 @@ As a final test, I verified if larger numbers will eventually display a result s
 - ***User cannot calculate float type inputs***: calculating decimal numbers such as "1.3" or "1,3" displays the "Please enter an integer" error message which is correct `passed`
 - ***Numbers greater than "170" display "Infinity" as a result***: calculating numbers larger than "170" displayed the "Infinity" result which is correct `passed`
 
-  All of the test cases in this suite performed as expected and they all passed, however for the last test case I also created a defect. The reason for this was that testing numbers greater than "991" failed to deliver the "Infinity" result and showed no result and no error message whatsoever. The result in these cases should either be "Infinity" as well or an error message such as "The number is too large" in order to let the user know that calculating the certain number is invalid.
+  All of the test cases in this suite performed as expected and they all passed, however for the last test case I also created a defect. The reason for this was that testing numbers greater than "991" failed to deliver the "Infinity" result and showed no result and no error message whatsoever. 
+  As an edge-case scenario I tried calculating very large numbers (four-digits). The result in these cases should either be "Infinity" as well or an error message such as "The number is too large" in order to let the user know that calculating the certain number is invalid.
   
   ### "Calculate!" Button Suite
   
