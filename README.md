@@ -4,6 +4,8 @@
   
   Due to the fact that there was no documentation provided for this application, the test planning was not based on any therefore I have decided to do exploratory testing instead.
   
+  All of the test cases were performed on the three most commonly used browsers: Microsoft Edge, Chrome and Firefox.
+  
   ## Summary
   
   The test plan performed on this application is composed of the following suits of test cases :
