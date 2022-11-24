@@ -39,7 +39,7 @@ For both the Website Title and the Website Icon test cases I created a defect de
    - Button text is correct and relevant to the theme: the Button shows the "Calculate!" text so it is correct - passed
    - "Terms and Conditions" hyperlink redirects the user to the "Terms and Conditions" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Privacy" Page instead - failed
    - "Privacy" hyperlink redirects the user to the "Privacy" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Terms and Conditions" Page instead - failed
-   - Footer hyperlink redirects user to the correct page: clicking the hyperlink loaded the following website: (qxf2.com) and it is correct - passed
+   - Footer hyperlink redirects user to the correct page: clicking the hyperlink loaded the following website: (https://qxf2.com/) and it is correct - passed
 
 "Terms and Conditions" and "Privacy" hyperlinks loaded up the incorrect pages. I created defects for both of the test cases mentioning what the expected result was upon accessing the hyperlinks.
 
