@@ -1,6 +1,6 @@
 # **Factorial QA Testing**
 
-	For testing purposes I have picked a web application developed for helping QA testing which can be accessed through the following link : (https://qainterview.pythonanywhere.com/) . The application has the purpose of calculating the factorial of a number entered by the user.
+  For testing purposes I have picked a web application developed for helping QA testing which can be accessed through the following link : (https://qainterview.pythonanywhere.com/) . The application has the purpose of calculating the factorial of a number entered by the user.
   
   Due to the fact that there was no documentation provided for this application, the test planning was not based on any therefore I have decided to do exploratory testing instead.
   
@@ -24,8 +24,8 @@
    Performing the test run for this suite had the following results: 
    
    - Website link is functional: I was able to access the provided link - `passed`
-   - Website Title is correct and relevant to the theme: while the Title is relevant to the theme, it was spelled incorrectly as "Factoriall" instead of "Factorial" - failed
-   - Website has an icon: the Website icon is visible, but the standard one is displayed instead of a personalized one - failed
+   - Website Title is correct and relevant to the theme: while the Title is relevant to the theme, it was spelled incorrectly as "Factoriall" instead of "Factorial" - `failed`
+   - Website has an icon: the Website icon is visible, but the standard one is displayed instead of a personalized one - `failed`
 
 For both the Website Title and the Website Icon test cases I created a defect detailing why they failed: which were the expected and the actual results.
    
@@ -35,13 +35,13 @@ For both the Website Title and the Website Icon test cases I created a defect de
    
    Performing the test run for this suite had the following results:
    
-   - Website elements load up correctly: all the UI elements showed up as expected - passed
-   - Page Header is correct and relevant to the theme: the Page Header is "The Greatest Factorial Calculator!" and it is spelled correctly and in accordance with the application theme - passed
-   - Input Field shows intuitive placeholder text: the placeholder text is "Please enter an integer" so it is suitable - passed
-   - Button text is correct and relevant to the theme: the Button shows the "Calculate!" text so it is correct - passed
-   - "Terms and Conditions" hyperlink redirects the user to the "Terms and Conditions" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Privacy" Page instead - failed
-   - "Privacy" hyperlink redirects the user to the "Privacy" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Terms and Conditions" Page instead - failed
-   - Footer hyperlink redirects user to the correct page: clicking the hyperlink loaded the following website: (https://qxf2.com/) and it is correct - passed
+   - Website elements load up correctly: all the UI elements showed up as expected - `passed`
+   - Page Header is correct and relevant to the theme: the Page Header is "The Greatest Factorial Calculator!" and it is spelled correctly and in accordance with the application theme - `passed`
+   - Input Field shows intuitive placeholder text: the placeholder text is "Please enter an integer" so it is suitable - `passed`
+   - Button text is correct and relevant to the theme: the Button shows the "Calculate!" text so it is correct - `passed`
+   - "Terms and Conditions" hyperlink redirects the user to the "Terms and Conditions" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Privacy" Page instead - `failed`
+   - "Privacy" hyperlink redirects the user to the "Privacy" Page: clicking the hyperlink did not redirect to the correct page, it loaded up the "Terms and Conditions" Page instead - `failed`
+   - Footer hyperlink redirects user to the correct page: clicking the hyperlink loaded the following website: (https://qxf2.com/) and it is correct - `passed`
 
 "Terms and Conditions" and "Privacy" hyperlinks loaded up the incorrect pages. I created defects for both of the test cases mentioning what the expected result was upon accessing the hyperlinks.
 
@@ -55,17 +55,20 @@ As a final test, I verified if larger numbers will eventually display a result s
 
 Performing the test run for this suite had the following results:
 
-- User is able to enter value in the input field: input field was responsive and I was able to enter a number in it - passed
-- User can calculate integer type inputs: I was able to calculate the valid type of input and doing so displayed a correct result (eg: calculating "3" displayed "6" as a result) - passed
-- User can calculate numbers starting with "0": calculating numbers that start with "0" still displays a correct result (the "0" in front of the number is ignored) (eg: calculating "03" displayed same result as calculating "3") - passed
-- User can calculate "0!": calculating "0!" displayed the result "1" which is correct - passed
-- Blank spaces before and after the number are ignored: I entered blank space in front/after the number and upon calculating the correct result was shown (eg: calculating " 3" and "3 " showed the same result as calculating "3", which is "6") - passed
-- User cannot calculate numbers with blank space in between digits: calculating two or three-digits numbers with a blank space in between digits displayed the "Please enter an integer" error message which is the correct result  (eg: calculating "1 3") - passed
-- User cannot calculate string type inputs: calculating a string type input such as "a" displayed the "Please enter an integer" error message which is correct - passed
-- User cannot calculate symbol type inputs: calculating numbers with any type of symbols such as "-3" displayed the "Please enter an integer" error message which is correct - passed
+- User is able to enter value in the input field: input field was responsive and I was able to enter a number in it - `passed`
+- User can calculate integer type inputs: I was able to calculate the valid type of input and doing so displayed a correct result (eg: calculating "3" displayed "6" as a result) - `passed`
+- User can calculate numbers starting with "0": calculating numbers that start with "0" still displays a correct result (the "0" in front of the number is ignored) (eg: calculating "03" displayed same result as calculating "3") - `passed`
+- User can calculate "0!": calculating "0!" displayed the result "1" which is correct - `passed`
+- Blank spaces before and after the number are ignored: I entered blank space in front/after the number and upon calculating the correct result was shown (eg: calculating " 3" and "3 " showed the same result as calculating "3", which is "6") - `passed`
+- User cannot calculate numbers with blank space in between digits: calculating two or three-digits numbers with a blank space in between digits displayed the "Please enter an integer" error message which is the correct result  (eg: calculating "1 3") - `passed`
+- User cannot calculate string type inputs: calculating a string type input such as "a" displayed the "Please enter an integer" error message which is correct - `passed`
+- User cannot calculate symbol type inputs: calculating numbers with any type of symbols such as "-3" displayed the "Please enter an integer" error message which is correct - `passed`
 - User cannot calculate float type inputs: calculating decimal numbers such as "1.3" or "1,3" displays the "Please enter an integer" error message which is correct - ![image](https://user-images.githubusercontent.com/118375564/203832799-1a288eda-58d8-4a68-bafe-cfffef64bf77.png)
-
 - Numbers greater than "170" display "Infinity" as a result: calculating numbers larger than "170" displayed the "Infinity" result which is correct - `passed`
+
+  All of the test cases in this suite performed as expected and they all passed, however for the last test case I also created a defect. The reason for this was that testing numbers greater than "191" failed to deliver the "Infinity" result and showed no result and no error message whatsoever. The result in these cases should either be "Infinity" as well or an error message such as "The number is too large" in order to let the user know that calculating the certain number is invalid.
+  
+  
    
 
 
