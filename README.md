@@ -47,7 +47,9 @@ For both the Website Title and the Website Icon test cases I created a defect de
 
 Given that the Input Field was interactible, I was able to test various types of inputs in order to determine if the correct result/error message is displayed in accordance with the case.
 
-During this step I verified if entering integer type inputs will display a result and if any other type of inputs (string type, symbol type, float type) will show an error message. I also checked if mistakenly entering blank spaces in front/in the middle/after the number has any effect on the result and if trying to calculate a number starting with "0" or "0" itself will display a result or an error message. As a final test, I verified if larger numbers will eventually display a result such as "Infinity" and if four-digit numbers will display an error message.
+During this step I verified if entering integer type inputs will display a result and if any other type of inputs (string type, symbol type, float type) will show an error message. I also checked if mistakenly entering blank spaces in front/in the middle/after the number has any effect on the result and if trying to calculate a number starting with "0" or "0" itself will display a result or an error message. 
+
+As a final test, I verified if larger numbers will eventually display a result such as "Infinity" and if four-digit numbers will display an error message.
 
 Performing the test run for this suite had the following results:
 
@@ -60,7 +62,7 @@ Performing the test run for this suite had the following results:
 - User cannot calculate string type inputs: calculating a string type innput such as "a" displayed the "Please enter an integer" error message which is correct - passed
 - User cannot calculate symbol type inputs: calculating numbers with any type of symbols such as "-3" displayed the "Please enter an integer" error message which is correct - passed
 - User cannot calculate float type inputs: calculating decimal numbers such as "1.3" or "1,3" displays the "Please enter an integer" error message which is correct - passed
-- 
+- Numbers greater than "170" display "Infinity" as a result: calculating numbers larger than "170" su
    
 
 
