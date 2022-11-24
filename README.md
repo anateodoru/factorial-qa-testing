@@ -79,11 +79,3 @@ As a final test, I verified if larger numbers will eventually display a result s
     - ***Interacting with the "Calculate!" button displays a message***: clicking the button will display a message depending on the value entered `passed`
     - ***The result is displayed correctly based on the input number***: either the "Please enter an integer" error message - if any type of input other than integer type is entered - or a valid result - if an integer type input is entered - are displayed upon interacting with the button `passed`
   
-   
-
-
-
-- edge-case
-
-
-- reported issues
