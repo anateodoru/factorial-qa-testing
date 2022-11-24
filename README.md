@@ -23,7 +23,7 @@
    
    Performing the test run for this suite had the following results: 
    
-   - Website link is functional: I was able to access the provided link ![check-mark-emoji-computer-icons-emoticon-clip-art-tickd](https://user-images.githubusercontent.com/118375564/203837863-292e40ca-7fdb-4d37-9687-b90ab5c4e551.jpg)
+   - Website link is functional: I was able to access the provided link ![Screenshot_1c](https://user-images.githubusercontent.com/118375564/203838172-dfa4c46d-ca10-4a45-aa10-79630a457fd9.png)
 🟢 `passed`
    Website Title is correct and relevant to the theme: while the Title is relevant to the theme, it was spelled incorrectly as "Factoriall" instead of "Factorial"   🔴`failed`
      🔴 Website has an icon: the Website icon is visible, but the standard one is displayed instead of a personalized one - 🔴`failed`
