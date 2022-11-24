@@ -55,19 +55,28 @@ As a final test, I verified if larger numbers will eventually display a result s
 
 Performing the test run for this suite had the following results:
 
-- User is able to enter value in the input field: input field was responsive and I was able to enter a number in it - `passed`
-- User can calculate integer type inputs: I was able to calculate the valid type of input and doing so displayed a correct result (eg: calculating "3" displayed "6" as a result) - `passed`
-- User can calculate numbers starting with "0": calculating numbers that start with "0" still displays a correct result (the "0" in front of the number is ignored) (eg: calculating "03" displayed same result as calculating "3") - `passed`
-- User can calculate "0!": calculating "0!" displayed the result "1" which is correct - `passed`
-- Blank spaces before and after the number are ignored: I entered blank space in front/after the number and upon calculating the correct result was shown (eg: calculating " 3" and "3 " showed the same result as calculating "3", which is "6") - `passed`
-- User cannot calculate numbers with blank space in between digits: calculating two or three-digits numbers with a blank space in between digits displayed the "Please enter an integer" error message which is the correct result  (eg: calculating "1 3") - `passed`
-- User cannot calculate string type inputs: calculating a string type input such as "a" displayed the "Please enter an integer" error message which is correct - `passed`
-- User cannot calculate symbol type inputs: calculating numbers with any type of symbols such as "-3" displayed the "Please enter an integer" error message which is correct - `passed`
-- User cannot calculate float type inputs: calculating decimal numbers such as "1.3" or "1,3" displays the "Please enter an integer" error message which is correct - ![image](https://user-images.githubusercontent.com/118375564/203832799-1a288eda-58d8-4a68-bafe-cfffef64bf77.png)
-- Numbers greater than "170" display "Infinity" as a result: calculating numbers larger than "170" displayed the "Infinity" result which is correct - `passed`
+- User is able to enter value in the input field: input field was responsive and I was able to enter a number in it `passed`
+- User can calculate integer type inputs: I was able to calculate the valid type of input and doing so displayed a correct result (eg: calculating "3" displayed "6" as a result) `passed`
+- User can calculate numbers starting with "0": calculating numbers that start with "0" still displays a correct result (the "0" in front of the number is ignored) (eg: calculating "03" displayed same result as calculating "3") `passed`
+- User can calculate "0!": calculating "0!" displayed the result "1" which is correct `passed`
+- Blank spaces before and after the number are ignored: I entered blank space in front/after the number and upon calculating the correct result was shown (eg: calculating " 3" and "3 " showed the same result as calculating "3", which is "6") `passed`
+- User cannot calculate numbers with blank space in between digits: calculating two or three-digits numbers with a blank space in between digits displayed the "Please enter an integer" error message which is the correct result  (eg: calculating "1 3") `passed`
+- User cannot calculate string type inputs: calculating a string type input such as "a" displayed the "Please enter an integer" error message which is correct `passed`
+- User cannot calculate symbol type inputs: calculating numbers with any type of symbols such as "-3" displayed the "Please enter an integer" error message which is correct `passed`
+- User cannot calculate float type inputs: calculating decimal numbers such as "1.3" or "1,3" displays the "Please enter an integer" error message which is correct `passed`
+- Numbers greater than "170" display "Infinity" as a result: calculating numbers larger than "170" displayed the "Infinity" result which is correct `passed`
 
-  All of the test cases in this suite performed as expected and they all passed, however for the last test case I also created a defect. The reason for this was that testing numbers greater than "191" failed to deliver the "Infinity" result and showed no result and no error message whatsoever. The result in these cases should either be "Infinity" as well or an error message such as "The number is too large" in order to let the user know that calculating the certain number is invalid.
+  All of the test cases in this suite performed as expected and they all passed, however for the last test case I also created a defect. The reason for this was that testing numbers greater than "991" failed to deliver the "Infinity" result and showed no result and no error message whatsoever. The result in these cases should either be "Infinity" as well or an error message such as "The number is too large" in order to let the user know that calculating the certain number is invalid.
   
+  ### "Calculate!" Button suite
+  
+    These test cases focused on the functionality of the button but also on the message shown to the user after interacting with it. Depending on the number entered in the Input Field, the message should be different.
+    
+    Performing the test run for this suite had the following results:
+    
+    - User is able to interact with the "Calculate!" button: I was able to click the button and it is responsive - passed
+    - Interacting with the "Calculate!" button displays a message: clicking the button will display a message depending on the value entered `passed`
+    - The result is displayed correctly based on the input number: either the "Please enter an integer" error message - if any type of input other than integer type is entered - or a valid result - if an integer type input is entered - are displayed upon interacting with the button `passed`
   
    
 
