@@ -23,8 +23,8 @@
    
    Performing the test run for this suite had the following results: 
    
-   - Website link is functional: I was able to access the provided link `passed`
-   - Website Title is correct and relevant to the theme: while the Title is relevant to the theme, it was spelled incorrectly as "Factoriall" instead of "Factorial" `failed`
+   - **Website link is functional**: I was able to access the provided link `passed`
+   - **Website Title is correct and relevant to the theme**: while the Title is relevant to the theme, it was spelled incorrectly as "Factoriall" instead of "Factorial" `failed`
    - Website has an icon: the Website icon is visible, but the standard one is displayed instead of a personalized one `failed`
 
 For both the Website Title and the Website Icon test cases I created a defect detailing why they failed: which were the expected and the actual results.
