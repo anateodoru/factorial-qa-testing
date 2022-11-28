@@ -62,7 +62,7 @@ As a final test, I verified if larger numbers will eventually display a result s
 - ***Blank spaces before and after the number are ignored***: I entered blank space in front/after the number and upon calculating the correct result was shown (eg: calculating " 3" and "3 " showed the same result as calculating "3", which is "6") `passed`
 - ***User cannot calculate numbers with blank space in between digits***: calculating two or three-digits numbers with a blank space in between digits displayed the "Please enter an integer" error message which is the correct result  (eg: calculating "1 3") `passed`
 - ***User cannot calculate string type inputs***: calculating a string type input such as "a" displayed the "Please enter an integer" error message which is correct `passed`
-- ***User cannot calculate symbol type inputs***: calculating numbers with any type of symbols such as "-3" displayed the "Please enter an integer" error message which is correct `passed`
+- ***User cannot calculate symbol type inputs***: calculating numbers with any type of symbols such as "3#" displayed the "Please enter an integer" error message which is correct `passed`
 - ***User cannot calculate float type inputs***: calculating decimal numbers such as "1.3" or "1,3" displays the "Please enter an integer" error message which is correct `passed`
 - ***Numbers greater than "170" display "Infinity" as a result***: calculating numbers larger than "170" displayed the "Infinity" result which is correct `passed`
 
