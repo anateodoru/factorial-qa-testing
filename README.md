@@ -64,10 +64,13 @@ As a final test, I verified if larger numbers will eventually display a result s
 - ***User cannot calculate string type inputs***: calculating a string type input such as "a" displayed the "Please enter an integer" error message which is correct `passed`
 - ***User cannot calculate symbol type inputs***: calculating numbers with any type of symbols such as "3#" displayed the "Please enter an integer" error message which is correct `passed`
 - ***User cannot calculate float type inputs***: calculating decimal numbers such as "1.3" or "1,3" displays the "Please enter an integer" error message which is correct `passed`
+- ***User cannot calculate negative numbers***: calculating negative numbers such as "-3" does not display any message `failed`
 - ***Numbers greater than "170" display "Infinity" as a result***: calculating numbers larger than "170" displayed the "Infinity" result which is correct `passed`
 
-  All of the test cases in this suite performed as expected and they all passed, however for the last test case I also created a defect. The reason for this was that testing numbers greater than "991" failed to deliver the "Infinity" result and showed no result and no error message whatsoever. 
-  As an edge-case scenario I tried calculating very large numbers (four-digits). The result in these cases should either be "Infinity" as well or an error message such as "The number is too large" in order to let the user know that calculating the certain number is invalid.
+  The negative numbers test case failed because when doing so the user is not shown any error message.
+  Although the last test case did not fail, I created a defect. The reason for this was that testing numbers greater than "991" failed to deliver the "Infinity" result and showed no result and no error message whatsoever. 
+  As an edge-case scenario I tried calculating very large numbers (four-digits). The result in these cases should either be "Infinity" as well or an error message such as "The number is too large" in order to let the user know that calculating the certain number is invalid. 
+  For both of these test cases, when checking the console, a "500 (INTERNAL SERVER ERROR)" output is shown.
   
   ### "Calculate!" Button Suite
   
