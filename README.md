@@ -84,4 +84,7 @@ As a final test, I verified if larger numbers will eventually display a result s
     - ***User is able to interact with the "Calculate!" button***: I was able to click the button and it is responsive `passed`
     - ***Interacting with the "Calculate!" button displays a message***: clicking the button will display a message depending on the value entered `passed`
     - ***The result is displayed correctly based on the input number***: either the "Please enter an integer" error message - if any type of input other than integer type is entered - or a valid result - if an integer type input is entered - are displayed upon interacting with the button `passed`
+    - ***User can calculate a number using the "ENTER" key***: using the "ENTER" key instead of the "Calculate!" button will not show a result `failed`
+
+  All of the test cases in this suite performed as expected besides the last one which failed because a message should be shown upon using the "ENTER" key as well.
   
