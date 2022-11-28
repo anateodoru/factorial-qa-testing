@@ -68,8 +68,11 @@ As a final test, I verified if larger numbers will eventually display a result s
 - ***Numbers greater than "170" display "Infinity" as a result***: calculating numbers larger than "170" displayed the "Infinity" result which is correct `passed`
 
   The negative numbers test case failed because when doing so the user is not shown any error message.
-  Although the last test case did not fail, I created a defect. The reason for this was that testing numbers greater than "991" failed to deliver the "Infinity" result and showed no result and no error message whatsoever. 
+  
+  Although the last test case did not fail, I created a defect. The reason for this was that testing numbers greater than "991" failed to deliver the "Infinity" result and showed no result and no error message whatsoever.
+  
   As an edge-case scenario I tried calculating very large numbers (four-digits). The result in these cases should either be "Infinity" as well or an error message such as "The number is too large" in order to let the user know that calculating the certain number is invalid. 
+  
   For both of these test cases, when checking the console, a "500 (INTERNAL SERVER ERROR)" output is shown.
   
   ### "Calculate!" Button Suite
